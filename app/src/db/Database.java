@@ -8,21 +8,21 @@ import java.sql.Statement;
 
 public class Database {
 
-    public static Connection conn;
-    public static Statement statmt;
-    public static ResultSet resSet;
+        public static Connection conn;
+        public static Statement statmt;
+        public static ResultSet resSet;
 
-    // --------ПОДКЛЮЧЕНИЕ К БАЗЕ ДАННЫХ--------
-    public static void Conn() throws ClassNotFoundException, SQLException
-    {
-        conn = null;
-        Class.forName("org.sqlite.JDBC");
-        conn = DriverManager.getConnection("jdbc:sqlite:C:\\SQLite\\users.db");
+        // --------ПОДКЛЮЧЕНИЕ К БАЗЕ ДАННЫХ--------
+        public static void Conn() throws ClassNotFoundException, SQLException
+        {
+            conn = null;
+            Class.forName("org.sqlite.JDBC");
+            conn = DriverManager.getConnection("jdbc:sqlite:C:\\SQLite\\users.db");
 
-        System.out.println("База Подключена!");
-    }
+            System.out.println("База Подключена!");
+        }
 
-    // --------Создание таблицы--------
+        // --------Создание таблицы--------
         /*public static void CreateDB() throws ClassNotFoundException, SQLException
         {
             statmt = conn.createStatement();
@@ -31,7 +31,7 @@ public class Database {
             System.out.println("Таблица создана или уже существует.");
         }*/
 
-    // --------Заполнение таблицы--------
+        // --------Заполнение таблицы--------
         /*public static void WriteDB() throws SQLException
         {
             statmt.execute("INSERT INTO 'users' ('name', 'phone') VALUES ('Petya', 125453); ");
@@ -60,15 +60,15 @@ public class Database {
             System.out.println("Таблица выведена");
         }*/
 
-    // --------Закрытие--------
-    public static void CloseDB() throws ClassNotFoundException, SQLException
-    {
-        conn.close();
-        statmt.close();
-        resSet.close();
+        // --------Закрытие--------
+        public static void CloseDB() throws ClassNotFoundException, SQLException
+        {
+            conn.close();
+            statmt.close();
+            resSet.close();
 
-        System.out.println("Соединения закрыты");
+            System.out.println("Соединения закрыты");
+        }
+
     }
-
-}
 
