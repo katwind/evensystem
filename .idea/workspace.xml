@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0143d35-d07e-4271-86b0-4c2f16033cf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/UI/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/UI/users.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/app.java" afterPath="$PROJECT_DIR$/app/src/app.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,12 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/UI/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/app.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,12 +102,13 @@
         <option value="$PROJECT_DIR$/app/src/manager/DataManager.java" />
         <option value="$PROJECT_DIR$/app/src/UI/users.fxml" />
         <option value="$PROJECT_DIR$/app/src/UI/UsersController.java" />
+        <option value="$PROJECT_DIR$/app/src/app.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
-    <option name="y" value="4" />
+    <option name="x" value="634" />
+    <option name="y" value="27" />
     <option name="width" value="902" />
     <option name="height" value="754" />
   </component>
@@ -478,7 +490,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="613" y="4" width="902" height="754" extended-state="0" />
+    <frame x="634" y="27" width="902" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -558,8 +570,18 @@
     <entry file="file://$PROJECT_DIR$/app/src/UI/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
-          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
