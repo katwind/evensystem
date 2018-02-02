@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="666.0" prefWidth="585.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" text="Фамилия" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="42.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="14.0" layoutY="31.0" text="Имя" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="69.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="14.0" layoutY="48.0" text="Отчество" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="96.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="14.0" layoutY="65.0" text="Адрес" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="123.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="45.0" layoutY="99.0" text="Телефон" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="150.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="12.0" layoutY="99.0" text="Пол" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="177.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="17.0" layoutY="116.0" text="Дата рождения" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="204.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="215.0" layoutY="160.0" text="Паспортные данные" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="230.0">
+                    <font>
+                        <Font name="Cambria" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="215.0" layoutY="6.0" text="Общая информация" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="15.0">
+                    <font>
+                        <Font name="Cambria" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="17.0" layoutY="186.0" text="Серия паспорта" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="257.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="272.0" layoutY="186.0" text="Номер" AnchorPane.topAnchor="257.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="272.0" layoutY="286.0" text="Кем выдан" AnchorPane.leftAnchor="272.0" AnchorPane.topAnchor="284.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="23.0" layoutY="288.0" text="Дата выдачи" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="284.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="21.0" layoutY="307.0" text="Личный номер" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="311.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="sNametext" layoutX="132.0" layoutY="61.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="40.0" />
+                <TextField fx:id="tNametext" layoutX="132.0" layoutY="97.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="94.0" />
+                <TextField fx:id="fNametext" layoutX="132.0" layoutY="67.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="67.0" />
+                <TextField fx:id="addressText" layoutX="132.0" layoutY="120.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="121.0" />
+                <TextField fx:id="telText" layoutX="132.0" layoutY="147.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="148.0" />
+                <TextField fx:id="sexText" layoutX="132.0" layoutY="174.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="175.0" />
+                <TextField fx:id="bdateText" layoutX="132.0" layoutY="192.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="202.0" />
+                <TextField fx:id="seriestext" layoutX="132.0" layoutY="247.0" prefHeight="19.0" prefWidth="40.0" AnchorPane.topAnchor="255.0" />
+                <TextField fx:id="numtext" layoutX="342.0" layoutY="255.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="255.0" />
+                <TextField fx:id="datetext" layoutX="132.0" layoutY="285.0" prefHeight="25.0" prefWidth="127.0" AnchorPane.topAnchor="282.0" />
+                <TextField fx:id="giventext" layoutX="342.0" layoutY="282.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.leftAnchor="345.0" AnchorPane.topAnchor="282.0" />
+                <TextField fx:id="persontext" layoutX="132.0" layoutY="308.0" prefHeight="25.0" prefWidth="127.0" AnchorPane.topAnchor="309.0" />
+                <Label layoutX="232.0" layoutY="334.0" text="Должность" AnchorPane.leftAnchor="242.0" AnchorPane.topAnchor="334.0">
+                    <font>
+                        <Font name="Cambria" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="25.0" layoutY="369.0" text="Должность" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="361.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="25.0" layoutY="394.0" text="Образование" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="388.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="25.0" layoutY="419.0" text="Опыт работы" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="415.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="25.0" layoutY="446.0" text="Обязанности" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="442.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="positiontext" layoutX="132.0" layoutY="358.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="359.0" />
+                <TextField fx:id="educattext" layoutX="142.0" layoutY="368.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="386.0" />
+                <TextField fx:id="exptext" layoutX="132.0" layoutY="412.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.leftAnchor="132.0" AnchorPane.topAnchor="413.0" />
+                <TextField fx:id="functext" layoutX="132.0" layoutY="439.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.topAnchor="440.0" />
+                <Label layoutX="218.0" layoutY="473.0" text="Личная информация" AnchorPane.topAnchor="469.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="6.0" layoutY="487.0" text="Семейный статус" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="496.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="182.0" layoutY="497.0" text="Дети" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="523.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="279.0" layoutY="497.0" text="Хобби" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="550.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="392.0" layoutY="498.0" text="Дополнительно" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="577.0">
+                    <font>
+                        <Font name="Cambria" size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="famtext" layoutX="132.0" layoutY="493.0" prefHeight="0.0" prefWidth="199.0" AnchorPane.topAnchor="494.0" />
+                <TextField fx:id="hobbytext" layoutX="132.0" layoutY="547.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.topAnchor="548.0" />
+                <TextField fx:id="childtext" layoutX="132.0" layoutY="520.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.topAnchor="521.0" />
+                <TextField fx:id="addittext" layoutX="132.0" layoutY="574.0" prefHeight="25.0" prefWidth="410.0" AnchorPane.topAnchor="575.0" />
+                <Button fx:id="accept" layoutX="479.0" layoutY="616.0" mnemonicParsing="false" text="Принять" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="615.0" />
+                <Button fx:id="upd" layoutX="379.0" layoutY="615.0" mnemonicParsing="false" text="Изменить" AnchorPane.leftAnchor="320.0" AnchorPane.topAnchor="615.0" />
+                <Button fx:id="back" layoutX="21.0" layoutY="616.0" mnemonicParsing="false" text="Назад" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="615.0" />
+                <Button fx:id="del" layoutX="132.0" layoutY="615.0" mnemonicParsing="false" text="Удалить" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="615.0" />
+            </children></AnchorPane>
+    </content>
+</ScrollPane>
